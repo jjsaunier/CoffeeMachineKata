@@ -1,0 +1,19 @@
+{
+    "name": "root/coffeemachine",
+    "authors": [
+        {
+            "name": "Johann Saunier",
+            "email": "saunier.johann@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CoffeeMachine\\" : "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^5.4",
+        "symfony/var-dumper": "^3.1",
+        "webmozart/assert": "^1.0"
+    }
+}
